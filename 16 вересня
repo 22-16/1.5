@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Введення необхідної особистої інформації </title>
+</head>
+<body>
+  <form action="/submit" method="post" target="_blank">
+    <label for ="name">Ваше Ім'я:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for ="surname">Ваше Прізвище:</label>
+    <input type="text" id="surname" name="surname" required><br><br>
+    
+    <label for ="hobbie">Ваш рік народження:</label>
+    <input type="text" id="year of birth" name="year of birth" required><br><br>
+    
+    <label for ="hobbie">Ваше хобі:</label>
+    <input type="text" id="hobbie" name="hobbie" required><br><br>
+    
+    <label for ="hobbie">Ваша улюблена їжа:</label>
+    <input type="text" id="food" name="food" required><br><br>
+    
+    <label for ="hobbie">Ваш улюблений колір:</label>
+    <input type="text" id="colour" name="colour" required><br><br>
+    
+    <label for ="email">Ваша електрона пошта для того щоб ми могли з вами зв'язатися:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for ="password">Пароль до пошти:</label>
+    <input type="password" id="pasword" name="pasword" required><br><br>
+    
+    	<input type="submit" value="відправити мої дані">
+	</form>
+</body>
+</html>
